@@ -1,0 +1,400 @@
+/* Desktop version */
+@media (min-width: 992px){
+    body{
+        scroll-behavior: smooth;
+        font-family: 'Varela Round', sans-serif;
+        overflow-x: hidden;
+    }
+    /* Navbar */
+    nav{
+        color: white;
+    }
+    .nav-scroll{
+        background-color: rgba(39, 48, 54, .8) !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+    .navbar-brand:hover{
+        color: whitesmoke;
+    }
+    .nav-link{
+        font-weight: 200;
+    }
+    .nav-link:hover{
+        border-bottom: 3px solid rgb(0, 255, 238, .3);
+        transition: .2s;
+        font-weight: bold;
+        margin-top: -2px ;
+    } 
+
+    #projects{
+        background-image: url('./assets/borobudur.jpg');
+        background-attachment: fixed;
+    }
+
+    /* Home */
+    .personal{
+        text-align: center;
+        background-image: url('./assets/borobudur.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .personal::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+        position: absolute;
+    }
+    .home-items{
+        position: relative;
+        z-index: 1;
+    }
+    .headline{
+        font-size: 55px !important;
+        color: whitesmoke;
+        font-weight: 20;
+        letter-spacing: 20px;
+    }
+    .underscore{
+        font-weight: 25;
+        border-bottom: 5px solid #bb814f;
+    }
+    .desc{
+        text-transform: capitalize;
+        font-size: 18px !important;
+        color: whitesmoke;
+    }
+    .btn-lg {
+        color: whitesmoke;
+        background-color: rgb(0, 255, 238, .3);
+        border: 1px solid black;
+    }
+
+    /* About */
+    .wrapper{
+        height: inherit;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+    }
+    .about-img{
+        width: 90%;
+        height: 90%;
+        border: none;
+        filter: drop-shadow(8px 8px 10px black);
+    }
+    .left, .right{
+        margin-top: 100px;
+    }
+    .right > h1{
+        color: whitesmoke;
+    }
+    .right > p{
+        color: whitesmoke;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .human2 > image{
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    /* Projects */
+    .proj-desc{
+        margin-top: 50px;
+        color: whitesmoke;
+    }
+    
+    h1{
+        font-weight: 500;
+    }
+
+    .box{
+        /* background-color: #273036; */
+        border-radius: 10px;
+        height: 500px;
+        position: relative;
+        color: white;
+        transform-style: preserve-3d;
+    }
+    .box:hover{
+        background-color: #273036;
+    }
+
+}
+
+
+/* Mobile Version */
+body{
+    scroll-behavior: smooth;
+    font-family: 'Varela Round', sans-serif;
+    overflow-x: hidden;
+}
+/* Navbar */
+.navbar .navbar-toggler-icon {
+    /* background-image: url(./assets/rocket.gif); */
+    border: none;
+
+}
+.bi-gear{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: whitesmoke;
+}
+.navbar-brand:hover{
+    color: whitesmoke;
+}
+.nav-link{
+    font-weight: 200;
+    margin-left: -20px;
+}
+.nav-link:hover{
+    color: rgb(0, 255, 238, .3);
+    transition: .2s;
+    font-weight: bold;
+}
+
+
+/* Home */
+.personal{
+    text-align: center;
+    background-image: url('./assets/borobudur.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+.personal::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.3));
+    position: absolute;
+}
+.home-items{
+    position: relative;
+    z-index: 1;
+}
+.headline{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 10;
+    letter-spacing: 10px;
+}
+.underscore{
+    font-weight: 35;
+    border-bottom: 5px solid #bb814f;
+}
+.desc{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.btn-lg {
+    color: whitesmoke;
+    background-color: rgb(0, 255, 238, .3);
+    border: 1px solid black;
+}
+
+/* About */
+
+.title-stories{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.about-items > p{
+    font-size: 35px;
+}
+.about-items > p, h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.brownText{
+    color: #bb814f;
+}
+.about-img{
+    width: 50%;
+    height: 50%;
+    border: none;
+    filter: drop-shadow(8px 8px 10px black);
+}
+
+.right {
+    color: black;
+}
+.right > p{
+    font-size: 18px;
+    text-align: justify;
+}
+.human2{
+    margin-top: 50px;
+    height: 350px;
+    width: 440px;
+    filter: drop-shadow(8px 8px 10px black);
+}
+.human2Desc{
+    text-align: justify;
+    border-bottom: 2px solid rgba(0,0,0,.5);
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.human3{
+    float: left ;
+    filter: drop-shadow(5px 5px 10px black);
+    height: 350px;
+    margin: 15px;
+}
+.human3Desc{
+    font-size: 18px;
+    text-align: justify;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    
+}
+svg{
+    margin-top: -10px;
+    opacity: .9;
+}
+/* Series */
+.series{
+    margin-top: 100px;
+    font-family: 'Solitreo', cursive;
+}
+.series > h1, h3{
+    color: black;
+}
+.series > h1 {
+    margin-bottom: 50px;
+}
+.cover{
+    height: 550px;
+    background-image: url(./assets/cover.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+.cover::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,.3));
+    position: absolute;
+}
+.series-content{
+    position: relative;
+    z-index: 1;
+}
+.series-tagline{
+    font-size: 75px;
+    color: whitesmoke;
+}
+.HOI{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.btn-outline-light{
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0;
+    letter-spacing: 3px;
+}
+/* Countries */
+.countries-items{
+    font-family: 'Solitreo', cursive;
+    color: whitesmoke !important;
+    
+}
+.countries{
+    background-color: #273036;   
+}
+.countries-item{
+    margin-top: 10px;
+}
+.country-item{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    filter: contrast(50%);
+}
+.country-item:hover{
+    filter: contrast(100%);
+}
+.country-item:hover .name{
+    display: none !important;
+}
+.imageWrapper{
+    position: relative;
+}
+.name{
+    position: absolute;
+    z-index: 1;
+    font-size: 55px;
+    text-align: center;
+    align-items: center;
+}
+
+/*  Footer */
+footer {
+    height: 150px;
+    background-color: #161a1d;
+    color: white !important;
+}
+footer  p{
+    font-size: 36px;
+}
+.bi-instagram,
+.bi-twitter,
+.bi-github,
+.bi-linkedin {
+  color: white;
+  font-size: 32px;
+  transition: 0.5s;
+}
+.bi:hover{
+    margin-top: -25px;
+}
+.bi-instagram:hover {
+  font-size: 40px;
+  color: rgb(138, 58, 185);
+}
+
+.bi-twitter:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-linkedin:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-github:hover {
+  font-size: 40px;
+  color: green;
+}
+.footer{
+    padding-top: 10px;
+}
+.socmed{
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
