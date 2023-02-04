@@ -204,10 +204,34 @@ body{
     font-size: 12px;
     color: whitesmoke;
 }
-.btn-lg {
+.getStart{
+    position: absolute;
+    text-align: center;
+    margin-left: -80px;
+    margin-top: 230px;
+    text-decoration: none;
+    font-size: 24px;
     color: whitesmoke;
-    background-color: rgb(0, 255, 238, .3);
-    border: 1px solid black;
+    animation: mover 1s infinite  alternate;
+}
+.getStart:hover{
+    color: #bb814f;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 /* About */
